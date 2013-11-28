@@ -1,0 +1,21 @@
+Name:                blockchain-parser
+Version:             0.1
+Synopsis:            Parse the Bitcoin Blockchain
+License:             BSD3
+License-file:        LICENSE
+Author:              Marko Bencun
+Maintainer:          mbencun@gmail.com
+Category:            Application
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+
+Executable blockchain-parser
+  Main-is:             Main.hs
+  hs-source-dir:       src
+  Build-depends:       base, Decimal,
+                       optparse-applicative, 
+                       bytestring>=0.10.4.0, time, 
+                       base16-bytestring, bytestring-mmap, unordered-containers,
+                       directory, system-filepath, cryptohash, cereal>=0.4.0.1
+  Ghc-options:         -O3 -Wall
