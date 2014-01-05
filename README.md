@@ -1,7 +1,7 @@
 #blockchain-parser-hs
 
 blockchain-parser-hs is a parser for the Bitcoin blockchain written in Haskell.
-It yet needs to be properly documented, but the parser itself (located in src/BlockchainParser.hs) should be fairly self-explanatory.
+It has yet to be properly documented, but the parser itself (located in src/BlockchainParser.hs) should be fairly self-explanatory.
 
 Additional resources:
 * [Bitcoin: 285 bytes that changed the world](http://james.lab6.com/2012/01/12/bitcoin-285-bytes-that-changed-the-world/)
