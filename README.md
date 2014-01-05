@@ -9,11 +9,9 @@ Additional resources:
 * [Bitcoin Transactions](https://en.bitcoin.it/wiki/Transaction)
 * [Bitcoin Script](https://en.bitcoin.it/wiki/Script)
 
-## Compile
-
-`cabal install`
-
 ## Running the demo app:
+
+First, compile: `cabal install`
 
 To calculate the total balance of a number of public addresses, run
 `./blockchain-parser once < public_addresses.txt`
