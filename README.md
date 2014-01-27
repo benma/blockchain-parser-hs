@@ -1,6 +1,6 @@
 #blockchain-parser-hs
 
-blockchain-parser-hs is a parser for the Bitcoin blockchain written in Haskell.
+blockchain-parser-hs is a fast parser for the Bitcoin blockchain written in Haskell. The library provides functions to easily parse the blockchain and extract relevant data. Haskell's lazy evaluation model is used to only parse, in a seamless way, only the data that is really accessed, while skipping the rest.
 It has yet to be properly documented, but the parser itself (located in [src/BlockchainParser.hs](https://github.com/benma/blockchain-parser-hs/blob/master/src/BlockchainParser.hs)) should be fairly self-explanatory.
 
 Additional resources:
